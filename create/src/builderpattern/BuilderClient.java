@@ -10,7 +10,7 @@ package builderpattern;
  * @author gulin
  * @date 2021/9/2 14:07
  */
-public class Client {
+public class BuilderClient {
     public static void main(String[] args) {
         Builder builder = new ConcreteBuilder();
         Director director = new Director(builder);
